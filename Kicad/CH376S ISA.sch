@@ -445,96 +445,12 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 10675 3525 50  0001 C CNN
 	1    10675 3525
 	1    0    0    -1  
 $EndComp
-$Comp
-L 74xx:74LS139 U3
-U 1 1 642DE0FF
-P 13100 5525
-F 0 "U3" H 13100 5892 50  0000 C CNN
-F 1 "74LS139" H 13100 5801 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 13100 5525 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 13100 5525 50  0001 C CNN
-	1    13100 5525
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS139 U3
-U 3 1 642DED85
-P 13100 6300
-F 0 "U3" V 12733 6300 50  0000 C CNN
-F 1 "74LS139" V 12824 6300 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 13100 6300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 13100 6300 50  0001 C CNN
-	3    13100 6300
-	0    1    1    0   
-$EndComp
-Text Label 12600 6300 2    50   ~ 0
-GND
-Text Label 13600 6300 0    50   ~ 0
-5+
-Text Label 12600 5525 2    50   ~ 0
-A0
-Text Label 12600 5425 2    50   ~ 0
-A1
-Text Label 13600 5425 0    50   ~ 0
-E0
-Text Label 13600 5525 0    50   ~ 0
-E1
-Text Label 13600 5625 0    50   ~ 0
-E2
-Text Label 13600 5725 0    50   ~ 0
-E3
-Text Label 14325 5150 0    50   ~ 0
-GND
-Text Label 13825 5150 2    50   ~ 0
-5+
-$Comp
-L pspice:CAP C3
-U 1 1 642E2100
-P 14075 5150
-F 0 "C3" V 13760 5150 50  0000 C CNN
-F 1 "0.1uF" V 13851 5150 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 14075 5150 50  0001 C CNN
-F 3 "~" H 14075 5150 50  0001 C CNN
-	1    14075 5150
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Odd_Even J3
-U 1 1 642E381E
-P 14525 6625
-F 0 "J3" H 14575 6942 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 14575 6851 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 14525 6625 50  0001 C CNN
-F 3 "~" H 14525 6625 50  0001 C CNN
-	1    14525 6625
-	1    0    0    -1  
-$EndComp
-Text Label 14325 6525 2    50   ~ 0
-E0
-Text Label 14325 6625 2    50   ~ 0
-E1
-Text Label 14325 6725 2    50   ~ 0
-E2
-Text Label 14325 6825 2    50   ~ 0
-E3
 Text Label 14550 4125 0    50   ~ 0
-IO_00EX
-Text Label 12600 5725 2    50   ~ 0
-IO_00EX
-Text Label 14825 6525 0    50   ~ 0
-CH376CS
-Text Label 14825 6625 0    50   ~ 0
-CH376CS
-Text Label 14825 6725 0    50   ~ 0
-CH376CS
-Text Label 14825 6825 0    50   ~ 0
 CH376CS
 Text Label 6975 2725 0    50   ~ 0
 CH376CS
 Text Label 6475 3325 2    50   ~ 0
 A2
-Text Label 10175 3825 2    50   ~ 0
-GND
 $Comp
 L Connector:Bus_ISA_8bit J1
 U 1 1 643301B6
@@ -602,8 +518,6 @@ Text Label 12225 9825 0    50   ~ 0
 GND
 Text Label 12225 8525 0    50   ~ 0
 5+
-Text Label 11725 9425 2    50   ~ 0
-GND
 Text Label 14375 9825 0    50   ~ 0
 GND
 Text Label 13875 9525 2    50   ~ 0
@@ -703,68 +617,57 @@ F 3 "~" H 14575 8175 50  0001 C CNN
 	1    14575 8175
 	0    1    1    0   
 $EndComp
-$Comp
-L Memory_EPROM:27C64 U6
-U 1 1 6434340C
-P 18775 9375
-F 0 "U6" H 18775 10556 50  0000 C CNN
-F 1 "28C64" H 18775 10465 50  0000 C CNN
-F 2 "Package_DIP:DIP-28_W15.24mm" H 18775 9375 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/11107M.pdf" H 18775 9375 50  0001 C CNN
-	1    18775 9375
-	1    0    0    -1  
-$EndComp
-Text Label 18375 10175 2    50   ~ 0
+Text Label 17925 10175 2    50   ~ 0
 ROM_CS
-Text Label 18375 9975 2    50   ~ 0
+Text Label 17925 9975 2    50   ~ 0
 MWR
-Text Label 18375 10275 2    50   ~ 0
+Text Label 17925 10075 2    50   ~ 0
 MRD
-Text Label 18775 8375 2    50   ~ 0
+Text Label 18325 8175 2    50   ~ 0
 5+
-Text Label 18775 10475 0    50   ~ 0
+Text Label 18325 10375 0    50   ~ 0
 GND
-Text Label 18375 8575 2    50   ~ 0
+Text Label 17925 8375 2    50   ~ 0
 A0
-Text Label 18375 9775 2    50   ~ 0
+Text Label 17925 9575 2    50   ~ 0
 A12
-Text Label 18375 9675 2    50   ~ 0
+Text Label 17925 9475 2    50   ~ 0
 A11
-Text Label 18375 9575 2    50   ~ 0
+Text Label 17925 9375 2    50   ~ 0
 A10
-Text Label 18375 9475 2    50   ~ 0
+Text Label 17925 9275 2    50   ~ 0
 A9
-Text Label 18375 9375 2    50   ~ 0
+Text Label 17925 9175 2    50   ~ 0
 A8
-Text Label 18375 9275 2    50   ~ 0
+Text Label 17925 9075 2    50   ~ 0
 A7
-Text Label 18375 9175 2    50   ~ 0
+Text Label 17925 8975 2    50   ~ 0
 A6
-Text Label 18375 9075 2    50   ~ 0
+Text Label 17925 8875 2    50   ~ 0
 A5
-Text Label 18375 8975 2    50   ~ 0
+Text Label 17925 8775 2    50   ~ 0
 A4
-Text Label 18375 8875 2    50   ~ 0
+Text Label 17925 8675 2    50   ~ 0
 A3
-Text Label 18375 8775 2    50   ~ 0
+Text Label 17925 8575 2    50   ~ 0
 A2
-Text Label 18375 8675 2    50   ~ 0
+Text Label 17925 8475 2    50   ~ 0
 A1
-Text Label 19175 9275 0    50   ~ 0
+Text Label 18725 9075 0    50   ~ 0
 D7
-Text Label 19175 9175 0    50   ~ 0
+Text Label 18725 8975 0    50   ~ 0
 D6
-Text Label 19175 9075 0    50   ~ 0
+Text Label 18725 8875 0    50   ~ 0
 D5
-Text Label 19175 8975 0    50   ~ 0
+Text Label 18725 8775 0    50   ~ 0
 D4
-Text Label 19175 8775 0    50   ~ 0
+Text Label 18725 8575 0    50   ~ 0
 D2
-Text Label 19175 8875 0    50   ~ 0
+Text Label 18725 8675 0    50   ~ 0
 D3
-Text Label 19175 8675 0    50   ~ 0
+Text Label 18725 8475 0    50   ~ 0
 D1
-Text Label 19175 8575 0    50   ~ 0
+Text Label 18725 8375 0    50   ~ 0
 D0
 Text Label 19350 8100 0    50   ~ 0
 GND
@@ -781,4 +684,25 @@ F 3 "~" H 19100 8100 50  0001 C CNN
 	1    19100 8100
 	0    1    1    0   
 $EndComp
+Text Label 10175 3825 2    50   ~ 0
+AEN
+Text Label 9050 9250 0    50   ~ 0
+AEN
+$Comp
+L Memory_EEPROM:28C256 U3
+U 1 1 64589300
+P 18325 9275
+F 0 "U3" H 18325 10556 50  0000 C CNN
+F 1 "28C256" H 18325 10465 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 18325 9275 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0006.pdf" H 18325 9275 50  0001 C CNN
+	1    18325 9275
+	1    0    0    -1  
+$EndComp
+Text Label 17925 9675 2    50   ~ 0
+GND
+Text Label 17925 9775 2    50   ~ 0
+GND
+Text Label 11725 9425 2    50   ~ 0
+AEN
 $EndSCHEMATC

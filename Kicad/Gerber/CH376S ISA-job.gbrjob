@@ -7,20 +7,20 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.8)-1"
     },
-    "CreationDate":  "2023-04-05T17:01:07-06:00"
+    "CreationDate":  "2023-05-08T00:15:06-06:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "CH376S Module",
-      "GUID": "43483337-3653-4204-9d6f-64756c652e6b",
+      "Name": "CH376S ISA",
+      "GUID": "43483337-3653-4204-9953-412e6b696361",
       "Revision": "rev?"
     },
     "Size":
     {
-      "X": 98.856,
-      "Y": 50.850
+      "X": 104.063,
+      "Y": 73.964
     },
     "LayerNumber": 2,
     "BoardThickness":  1.600
@@ -38,47 +38,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "CH376S Module-F_Cu.gbr",
+      "Path":  "CH376S ISA-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "CH376S Module-B_Cu.gbr",
+      "Path":  "CH376S ISA-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "CH376S Module-F_Paste.gbr",
+      "Path":  "CH376S ISA-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "CH376S Module-B_Paste.gbr",
+      "Path":  "CH376S ISA-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "CH376S Module-F_SilkS.gbr",
+      "Path":  "CH376S ISA-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "CH376S Module-B_SilkS.gbr",
+      "Path":  "CH376S ISA-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "CH376S Module-F_Mask.gbr",
+      "Path":  "CH376S ISA-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "CH376S Module-B_Mask.gbr",
+      "Path":  "CH376S ISA-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "CH376S Module-Edge_Cuts.gbr",
+      "Path":  "CH376S ISA-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
