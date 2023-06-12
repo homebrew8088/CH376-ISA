@@ -487,13 +487,13 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 12225 9125 50  0001 C CNN
 $EndComp
 Text Label 11725 9325 2    50   ~ 0
 REFQ
-Text Label 11725 9025 2    50   ~ 0
+Text Label 13875 9325 2    50   ~ 0
 A19
-Text Label 11725 8925 2    50   ~ 0
+Text Label 11725 9025 2    50   ~ 0
 A18
-Text Label 11725 8825 2    50   ~ 0
+Text Label 11725 8925 2    50   ~ 0
 A17
-Text Label 11725 9525 2    50   ~ 0
+Text Label 11725 8825 2    50   ~ 0
 A16
 Text Label 13875 9025 2    50   ~ 0
 A15
@@ -512,8 +512,8 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 14375 9125 50  0001 C CNN
 	1    14375 9125
 	1    0    0    -1  
 $EndComp
-Text Label 12725 9525 0    50   ~ 0
-ROM_CS_0XEX
+Text Label 12925 10400 2    50   ~ 0
+ROM_CS_0XDX
 Text Label 12225 9825 0    50   ~ 0
 GND
 Text Label 12225 8525 0    50   ~ 0
@@ -521,11 +521,9 @@ Text Label 12225 8525 0    50   ~ 0
 Text Label 14375 9825 0    50   ~ 0
 GND
 Text Label 13875 9525 2    50   ~ 0
-ROM_CS_0XEX
+ROM_CS_E_D
 Text Label 13875 9425 2    50   ~ 0
 GND
-Text Label 13875 9325 2    50   ~ 0
-5+
 Text Label 14875 8825 0    50   ~ 0
 ROM_CS_0XE0
 Text Label 14875 8925 0    50   ~ 0
@@ -705,4 +703,27 @@ Text Label 17925 9775 2    50   ~ 0
 GND
 Text Label 11725 9425 2    50   ~ 0
 AEN
+Text Label 11725 9525 2    50   ~ 0
+GND
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J3
+U 1 1 64733574
+P 13125 10400
+F 0 "J3" H 13175 10717 50  0000 C CNN
+F 1 "ROM CS" H 13175 10626 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 13125 10400 50  0001 C CNN
+F 3 "~" H 13125 10400 50  0001 C CNN
+	1    13125 10400
+	1    0    0    -1  
+$EndComp
+Text Label 13425 10400 0    50   ~ 0
+ROM_CS_E_D
+Text Label 13425 10500 0    50   ~ 0
+ROM_CS_E_D
+Text Label 12925 10500 2    50   ~ 0
+ROM_CS_0XEX
+Text Label 12725 9325 0    50   ~ 0
+ROM_CS_0XDX
+Text Label 12725 9425 0    50   ~ 0
+ROM_CS_0XEX
 $EndSCHEMATC
