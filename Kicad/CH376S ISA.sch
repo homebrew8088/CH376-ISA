@@ -329,8 +329,6 @@ Text Label 13550 3925 2    50   ~ 0
 5+
 Text Label 13550 4125 2    50   ~ 0
 A4
-Text Label 13550 4025 2    50   ~ 0
-IO_00XX
 Text Label 14050 3125 2    50   ~ 0
 5+
 Text Label 14900 2925 0    50   ~ 0
@@ -726,4 +724,8 @@ Text Label 12725 9325 0    50   ~ 0
 ROM_CS_0XDX
 Text Label 12725 9425 0    50   ~ 0
 ROM_CS_0XEX
+Text Label 12775 3975 0    50   ~ 0
+IO_07XX
+Text Label 13550 4025 2    50   ~ 0
+IO_07XX
 $EndSCHEMATC
